@@ -53,4 +53,5 @@ Example of "Selected entities":
 
 ## Notes
 Thanks to `titanium47` for suggesting this plugin.
+
 Thanks to [Bobby1](https://umod.org/user/Bobby1) for suggesting Neutral NPCs.
