@@ -1,10 +1,10 @@
-# Neutral Animals
+## Neutral Animals
 Animals will not attack anything unless they are attacked first, then if the animal loses sight of its last attacker for more than 30 seconds (default), it will forget.
 
-## Permissions
+### Permissions
 * `neutralanimals.use` - those without this permission will not be affected by this plugin and will always experience default behaviour.
 
-## Configuration
+### Configuration
 
 ```json
 {
@@ -13,15 +13,15 @@ Animals will not attack anything unless they are attacked first, then if the ani
 ```
 
 * **Forget time** - The amount of time a player is considered hostile before returning to neutral.
-# Neutral NPCs
+## Neutral NPCs
 *This is for the new branch of this plugin (found under Updates, then select the neutralnpcs branch)*
 
 NPCs will not attack anything unless they are attacked first, then if the animal loses sight of its last attacker for more than 30 seconds (default), it will forget.
 
-## Permissions
+### Permissions
 * `neutralnpcs.use` - those without this permission will not be affected by this plugin and will always experience default behaviour.
 
-## Configuration
+### Configuration
 
 ```json
 {
@@ -50,7 +50,6 @@ Example of "Selected entities":
   ]
 }
 ```
-
 
 ## Notes
 Thanks to `titanium47` for suggesting this plugin.
