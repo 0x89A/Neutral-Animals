@@ -15,8 +15,11 @@ NPCs will not attack anything unless they are attacked first, then if the animal
 ```
 
 * **Forget time** - The amount of time a player is considered hostile before returning to neutral.
+
 * **Only animals** - If you want this plugin to only affect animals (like previous versions) then set this to true. Setting this to false will mean all NPCs will act neutral (includes bradley apc and patrol helicopter).
+
 * **Affect only Selected** - If you want this plugin to only affect certain entitites, then this can be set to true, it will then only affect the entities defined in "Selected entities". **Note: (Only animals must be set to false)**
+
 * **Selected entities** - Here is where you put the shortnames of the entities you want to be affected by the plugin (needs above permission set to true to have any effect).
 
 Example of "Selected entities":
