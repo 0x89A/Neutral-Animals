@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace Oxide.Plugins
 {
-    [Info("Neutral NPCs", "0x89A", "2.0.0")]
+    [Info("Neutral NPCs", "0x89A", "2.0.1")]
     [Description("NPCs only attack if they are attacked first")]
     class NeutralNPCs : RustPlugin
     {
@@ -48,7 +48,6 @@ namespace Oxide.Plugins
 
         private object OnNpcTarget(BaseAnimalNPC animal, BasePlayer target)
         {
-            PrintWarning("test");
             return CanTarget(animal, target) ? null : (object)true;
         }
 
